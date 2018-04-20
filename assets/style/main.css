@@ -1,5 +1,6 @@
 body {
-    background-color: paleturquoise;
+    //background-color: paleturquoise;
+    background-image: url('images/loona_background.jpeg')
     background-position: center top;
 }
 
@@ -21,11 +22,34 @@ header {
 
 
 section {
-    width: 80%;
-    height: 800px;
+    width: 90%;
+    height: 100px;
     background-color: white;
-    margin-left: 10%;
-    border-radius: 10px; 
+    margin-left: 5%;
+    border-radius: 10px;
 }
+
+.grid {
+    border: 2px blue solid;
+    height: 100px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px 10px;
+}  
+
+div {
+    display: inline;
+}
+
+article {
+    width: 90%;
+    height: 400px;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
 
 
