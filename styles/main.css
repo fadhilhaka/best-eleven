@@ -1,54 +1,50 @@
 body {
     background-image: url("../images/loona_background.jpeg");
     background-position: center top;
+    font-family: sans-serif;
 }
 
 header {
     height: 100px;
     width: 100%;
     border-radius: 10px;
-    background-color: cornflowerblue;
+    background-color: white;
+    opacity: 0.9;
 }
 
-.logo {
+header img {
+    height: 100px;
     float: left;
 }
 
-.navigation {
-    float: right;
+nav {
+    float: left;
+    line-height: 100px;
+    margin-left: 40px;
 }
 
-
-
-section {
-    width: 90%;
-    height: 100px;
-    background-color: white;
-    margin-left: 5%;
-    border-radius: 10px;
-}
 
 .grid {
-    border: 2px blue solid;
-    height: 100px;
-    width: 90%;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-gap: 10px 10px;
-}  
-
-div {
-    display: inline;
+    max-width: 90%;
+    position: fixed;
+    margin-top: 10px;
+    grid-gap: 10px;
+    grid-template: repeat(1, 1fr) / repeat(12, 1fr);
 }
 
-article {
-    width: 90%;
-    height: 400px;
-    background-color: white;
-    margin-left: 5%;
-    border-radius: 10px;
-    border: 1px solid black;
+.member {
+    background-color: beige;
+    border: 2px white solid;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: 6.7%;
+    height: 100px;
+    width: 100px;
 }
 
-
+footer {
+    padding-top: 590px;
+    float: right;
+}
 
