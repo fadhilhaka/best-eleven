@@ -1,6 +1,5 @@
 body {
-    //background-color: paleturquoise;
-    background-image: url('images/loona_background.jpeg')
+    background-image: url('loona_background.jpeg');
     background-position: center top;
 }
 
