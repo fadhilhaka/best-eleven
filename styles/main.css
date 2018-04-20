@@ -23,6 +23,11 @@ nav {
     margin-left: 40px;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .grid {
     display: grid;
@@ -38,13 +43,17 @@ nav {
     border: 2px white solid;
     border-radius: 100%;
     margin-top: 100px;
-    margin-left: 6.7%;
+    margin-left: 0.9%;
     height: 100px;
     width: 100px;
 }
 
+article {
+    padding-top: 250px;
+}
+
 footer {
-    padding-top: 590px;
+    padding-top: 420px;
     float: right;
 }
 
