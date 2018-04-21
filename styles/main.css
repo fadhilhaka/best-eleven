@@ -47,5 +47,23 @@ div a {
 }
 
 #smiley:hover p a:after {
-    content: ':) Enter';
+    content: ':)enter';
+}
+
+/* home */
+.home-top {
+    height: 1796px;
+    width: 900px;
+}
+
+.home-nav {
+    border: 1px #99ddff solid;
+    width: 1796px;
+    margin-left: 100px;
+    line-height:50px;
+    padding-left: 10px;
+}
+
+nav a {
+    margin-left: 40px;
 }
