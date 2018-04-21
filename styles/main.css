@@ -4,85 +4,48 @@
 }
 
 body {
-    background-image: url("../images/rainbowwhite.jpg");
-    background-position: center top;
+    background-color: #006699;
     font-family: sans-serif;
 }
 
-div.logo {
-    position: fixed;
-    margin-top: 5px;
-    margin-left: 2px;
-    margin-right: 2px;
-    height: 100px;
-    width: 100%;
-    border-radius: 10px;
-    background-color: white;
-    opacity: 0.9;
+P {
+    color: white;
 }
 
-.logo img {
-    height: 100px;
-    float: left;
+#main-content {
+    margin-left: 37.5%;
+    margin-top: 15%;
+    text-align: left;
 }
 
-nav {
-    float: left;
-    line-height: 100px;
-    margin-left: 40px;
+#smiley {
+    font-size: 110px;
 }
 
-nav a, .credit a {
+#welcome {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+#welcome-note{
+    font-size: large;
+    margin-left: 5px;
+}
+
+div a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-.grid {
-    display: grid;
-    max-width: 90%;
-    position: fixed;
-    margin-left: 4.5%;
-    grid-gap: 1px;
-    height: 100%;
-    width: 100%;
-    grid-template: 1px 100px 10px / repeat(12, 1fr);
-    margin-top: 110px;
+#smiley p a:after {
+    position: relative;
+    content: ':(';
 }
 
-.member {
-    border: 2px white solid;
-    border-radius: 100%;
-    margin-top: 12px;
-    margin-left: 2px;
-    height: 70px;
-    width: 70px;
+#smiley:hover p a span {
+    display: none;
 }
 
-.pic {
-    border-radius: 100%;
-    border: 2px white solid;
-    height: 300px;
-    width: 300px;
-    margin-left: 42%;
-}
-
-.bio {
-    border-radius: 10px;
-    background-color: white;
-    grid-area: 4 / 1 / 5 / 13;
-    height: 300px;
-    padding-top: 2px; 
-    padding-left: 3px;
-    opacity: 0.9;
-}
-
-.credit {
-    margin-top: 100px;
-    border-radius: 10px;
-    background-color: white;
-    grid-area: 5 / 1 / 6 / 13;
-    height: 20px;
-    padding-top: 2px; 
-    padding-left: 3px;
-    opacity: 0.9;
+#smiley:hover p a:after {
+    content: ':) Enter';
 }
