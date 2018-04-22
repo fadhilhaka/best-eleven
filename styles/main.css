@@ -4,124 +4,64 @@
 }
 
 body {
-    background-color: #006699;
     font-family: sans-serif;
 }
-
-P {
+#index {
+    background-color: #006699;
+}
+#index p {
     color: white;
+}
+
+@media screen and (min-width: 1280px) {
+    #smiley {
+        font-size: 110px;
+    }
+
+    #welcome {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    
+    #welcome-note {
+        font-size: large;
+        margin-left: 5px;
+    }
+}
+@media screen and (min-width: 720px) {
+    #smiley {
+        font-size: 110px;
+    }
+    
+    #welcome {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    
+    #welcome-note {
+        font-size: large;
+        margin-left: 5px;
+    }
 }
 
 #main-content {
-    margin-left: 37.5%;
-    margin-top: 15%;
     text-align: left;
-}
-
-#smiley {
-    font-size: 110px;
-}
-
-#welcome {
-    font-size: 30px;
-    margin-left: 5px;
-}
-
-#welcome-note{
-    font-size: large;
-    margin-left: 5px;
-}
-
-div a {
-    text-decoration: none;
-    color: white;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 16%;
+    margin-bottom: 16%;
 }
 
 #smiley p a:after {
-    position: relative;
     content: ':(';
 }
-
 #smiley:hover p a span {
     display: none;
 }
-
 #smiley:hover p a:after {
     content: ':)enter';
 }
-
-/* home */
-#home-nav, #home-content, #home-side {
-    font-size: 20px;
-}
-
-.home-top-screen {
-    background-color: #006699;
-    height: 917px;
-}
-
-.home-top {
-    display: inline-table;
-    height: 1796px;
-    width: 900px;
-}
-
-.home-nav {
-    border: 1px #99ddff solid;
-    width: 1780px;
-    margin-left: 116px;
-    line-height:50px;
-    padding-left: 10px;
-}
-
-#home-side-title {
-    font-size: 20px;
-    float: right;
-    margin-top: 20px;
-}
-
-nav a {
-    margin-left: 40px;
-}
-
-.home-side {
-    display: inline-table;
-    height: 863px;
-    margin-left: 0;
-}
-
-.home-top-screen .home-top {
-    display: inline-table;
-
-}
-  
-.home-content {
-      position: relative;
-      z-index: 10;
-      float: left;
-      border:  1px #99ddff solid; 
-      width: 115px;
-      height: 863px;
-  }
-
-#home-idea-screen, #home-last-screen, #home-dream-screen {
-    background-color: white;
-    height: 920px;
-    width: 900px;
-}
-
-#home-idea-screen p, #home-last-screen p, #home-dream-screen p {
-    color: black;
-    font-size: 20px;
-    margin-left: 30px;
-    text-align: justify;
-}
-
-#home-last-screen img {
-    border-radius: 100%;
-    border: 5px black solid;
-    margin-top: 30px;
-    margin-left: 90%;
-    height: 200px;
-    width: 200px;
+#smiley a, #welcome-note a {
+    text-decoration: none;
+    color: white;
 }
