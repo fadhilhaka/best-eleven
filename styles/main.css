@@ -67,3 +67,11 @@ div a {
 nav a {
     margin-left: 40px;
 }
+
+.home-side {
+    display: inline-table;
+    border: 1px #99ddff solid;
+    width: 99px;
+    height: 863px;
+}
+
