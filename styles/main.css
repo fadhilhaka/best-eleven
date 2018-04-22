@@ -39,8 +39,8 @@ body {
 @media screen and (max-width: 480px) {
     #main-content {
         text-align: left;
-        margin-left: 32%;
-        margin-right: 32%;
+        margin-left: 15%;
+        margin-right: 15%;
         margin-top: 50%;
         margin-bottom: 50%;
     }
@@ -76,4 +76,35 @@ body {
 #smiley a, #welcome-note a {
     text-decoration: none;
     color: white;
+}
+
+/* home */
+@media screen and (min-width: 1024px) {
+    #home-nav {
+        font-size: 20px;
+        line-height: 90px;
+    }
+    #home-nav a {
+        padding-left: 30px;
+    }
+    #home-icon img {
+        position: relative;
+        top: 20px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+header {
+    background-color: #006699;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header img {
+    border-radius: 100%;
+}
+#home-nav {
+    display: inline-block;
 }
