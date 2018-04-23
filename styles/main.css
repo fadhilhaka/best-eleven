@@ -90,14 +90,21 @@ body {
     #home-nav a {
         padding-left: 30px;
     }
-    #home-icon img {
+    #home-first img {
         position: relative;
         top: 20px;
         height: 60px;
         width: 60px;
     }
-    #home-top {
+    #home-top{
         height: 821px;
+    }
+    #home-second, #home-third, #home-fourth, #home-fifth {
+        height: 919px;
+    }
+    #home-second-area {
+        height: 300px;
+        width: 600px;
     }
 }
 @media screen and (max-width: 480px) {
@@ -109,7 +116,7 @@ body {
         margin-left: 1.9%;
         margin-right: 1.9%;
     }
-    #home-icon img {
+    #home-first img {
         display: block;
         position: relative;
         bottom: 5px;
@@ -121,12 +128,16 @@ body {
     #home-top {
         height: 401px;
     }
+/*     #home-gif {
+        width: 100%;
+        height: auto;
+    } */
 }
 
 header {
     background-color: #3C578F;
 }
-header a, section p {
+header a, #home-top p {
     text-decoration: none;
     color: white;
 }
@@ -144,7 +155,7 @@ header img {
     text-align: center;
 }
 
-#home-gif {
+#home-gif{
     border-radius: 20px;
     border: 10px #3C578F solid;
     margin: 1% 28% 1% 28%;
@@ -156,4 +167,34 @@ header img {
     font-weight: 200;
     font-size: 75px;
     line-height: 80px;
+}
+
+.home-second, .home-third, .home-fourth, .home-fifth {
+    margin: 1% 0 0 0;
+}
+.home-second {
+    background-image: url("../images/workspace-4.png");
+    background-position: center; 
+}
+#home-second, #home-third, #home-fourth, #home-fifth {
+    color: black;
+}
+#home-second-area {
+    padding: 60px 0 0 80px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px;
+}
+#home-second-area a, footer {
+    text-decoration: none;
+    color: black;
+}
+
+.home-third {
+    background-color: #3C578F;
+}
+
+.home-fourth {
+    background-image: url("../images/rainbowwhite.jpg");
 }

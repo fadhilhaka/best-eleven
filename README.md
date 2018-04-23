@@ -4,4 +4,4 @@ About This Site: *Under Construction*
 
 Used Tags & Syntaxes: *Under Construction*
 
-About Me: Hi nama saya fadhil! salam kenal :)
+About Me: Hai nama saya fadhil! salam kenal :)
