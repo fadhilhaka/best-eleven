@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
 }
 #index {
-    background-color: #006699;
+    background-color: #3C578F;
 }
 #index p {
     color: white;
@@ -81,6 +81,7 @@ body {
 /* home */
 @media screen and (min-width: 1024px) {
     #home-nav {
+        display: inline-block;
         font-size: 20px;
         line-height: 90px;
     }
@@ -93,10 +94,35 @@ body {
         height: 60px;
         width: 60px;
     }
+    #home-top {
+        height: 821px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #home-nav {
+        font-size: 13px;
+        /* line-height: 10px; */
+    }
+    #home-nav a {
+        padding-left: 5px;
+        margin-left: 6px;
+    }
+    #home-icon img {
+        display: block;
+        position: relative;
+        bottom: 10px;
+        left: 37%;
+        right: 37%;
+        height: 80px;
+        width: 80px;
+    }
+    #home-top {
+        height: 401px;
+    }
 }
 
 header {
-    background-color: #006699;
+    background-color: #3C578F;
 }
 header a {
     text-decoration: none;
@@ -105,6 +131,7 @@ header a {
 header img {
     border-radius: 100%;
 }
-#home-nav {
-    display: inline-block;
+
+.home-top {
+    background-color: #6783BE;
 }
