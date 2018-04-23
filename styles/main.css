@@ -6,6 +6,8 @@
 body {
     font-family: sans-serif;
 }
+
+/* index.html */
 #index {
     background-color: #3C578F;
 }
@@ -22,7 +24,7 @@ body {
         margin-bottom: 16%;
     }
 
-    #smiley {
+    #smiley, {
         font-size: 110px;
     }
 
@@ -78,7 +80,7 @@ body {
     color: white;
 }
 
-/* home */
+/* home.html */
 @media screen and (min-width: 1024px) {
     #home-nav {
         display: inline-block;
@@ -124,14 +126,34 @@ body {
 header {
     background-color: #3C578F;
 }
-header a {
+header a, section p {
     text-decoration: none;
     color: white;
 }
 header img {
     border-radius: 100%;
 }
+#home-nav-idea:hover, #home-nav-dream:hover, #home-nav-fun:hover, #home-nav-full:hover, #home-nav-contact:hover {
+    color: #6783BE;
+}
 
 .home-top {
     background-color: #6783BE;
+}
+.home-top p {
+    text-align: center;
+}
+
+#home-gif {
+    border-radius: 20px;
+    border: 10px #3C578F solid;
+    margin: 1% 28% 1% 28%;
+}
+.home-welcome {
+    line-height: 5px;
+}
+#home-welcome {
+    font-weight: 200;
+    font-size: 75px;
+    line-height: 80px;
 }
