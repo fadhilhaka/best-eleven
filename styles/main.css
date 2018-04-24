@@ -99,10 +99,35 @@ body {
     #home-top{
         height: 821px;
     }
+    #home-gif {
+        background-image: url("../images/programmer.gif");
+        background-position: center;
+        height: 600px;
+        width: 800px;
+        border-radius: 20px;
+        border: 10px #3C578F solid;
+        margin: 0 28% 1% 28%;
+    }
+    .home-welcome {
+        line-height: 5px;
+    }
+    #home-welcome {
+        font-weight: 200;
+        font-size: 75px;
+        line-height: 80px;
+    }
+    .home-second {
+        background-image: url("../images/workspace-4.png");
+    }
     #home-second, #home-third, #home-fourth, #home-fifth {
         height: 919px;
     }
     #home-second-area {
+        padding: 60px 0 0 80px;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 45px;
         height: 300px;
         width: 600px;
     }
@@ -126,12 +151,46 @@ body {
         width: 80px;
     }
     #home-top {
-        height: 401px;
+        height: 415px;
     }
-/*     #home-gif {
-        width: 100%;
-        height: auto;
-    } */
+    #home-gif {
+        background-image: url("../images/programmer-s.gif");
+        background-position: center;
+        height: 200px;
+        width: 267px;
+        border-radius: 20px;
+        border: 10px #3C578F solid;
+        margin: 0 12.5% 1% 12.5%;
+    }
+    .home-welcome {
+        line-height: 5px;
+    }
+    #home-welcome {
+        font-weight: 200;
+        font-size: 55px;
+        line-height: 80px;
+    }
+    .home-second {
+        background-image: url("../images/workspace-4 (another copy).png");
+        background-position: center;
+        background-size: auto 519px;
+    }
+    #home-second, #home-third, #home-fourth, #home-fifth {
+        height: 519px;
+    }
+    #home-second-area {
+        margin: 0 8% 1% 8%;
+        background-color: white;
+        border-radius: 10px;
+        border: 5px black solid;
+        opacity: 0.8;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 45px;
+        height: 450px;
+        width: 300px;
+    }
 }
 
 header {
@@ -155,20 +214,6 @@ header img {
     text-align: center;
 }
 
-#home-gif{
-    border-radius: 20px;
-    border: 10px #3C578F solid;
-    margin: 1% 28% 1% 28%;
-}
-.home-welcome {
-    line-height: 5px;
-}
-#home-welcome {
-    font-weight: 200;
-    font-size: 75px;
-    line-height: 80px;
-}
-
 .home-second, .home-third, .home-fourth, .home-fifth {
     margin: 1% 0 0 0;
 }
@@ -178,13 +223,6 @@ header img {
 }
 #home-second, #home-third, #home-fourth, #home-fifth {
     color: black;
-}
-#home-second-area {
-    padding: 60px 0 0 80px;
-    font-size: 30px;
-    font-weight: 500;
-    text-align: center;
-    line-height: 45px;
 }
 #home-second-area a, footer {
     text-decoration: none;
