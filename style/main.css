@@ -7,7 +7,7 @@ body {
     font-family: sans-serif;
     color: white;
     min-width: 1000px;
-    min-height: 800px;
+    /* min-height: 800px; */
 }
 
 header {
@@ -18,107 +18,73 @@ header {
     text-align: center;
     vertical-align: middle;
 }
-header h1 {
-    letter-spacing: -10px;
-    line-height:170px;
-}
-header p {
-    font-size: 29px;
-    letter-spacing: -2px;
-    line-height: 29px;
-}
+  header h1 {
+      letter-spacing: -10px;
+      line-height:170px;
+  }
+  header p {
+      font-size: 29px;
+      letter-spacing: -2px;
+      line-height: 29px;
+  }
 
-.position {
-    padding-left: 37.5%;
-    padding-right: auto; 
-    width: 100%;
-    overflow: hidden;
+.table {
+	display: table;   /* Allow the centering to work */
+    margin: 0 auto;
 }
-.position, .player-list, .goalkeeper-line, .defender-line, .midfielder-line, .striker-line {
+.position {
+    padding: 10px;
     background-color: #700000;
     font-size: 20px;
+    line-height: 30px;
 }
-.position li, .player-list li, .goalkeeper-line li, .defender-line li, .midfielder-line li, .striker-line li {
-    float: left;
-    margin: auto;
-    list-style: none;
-}
-.position li a, .goalkeeper-line li, .defender-line li a, .midfielder-line li a, .striker-line li a {
-    display: block;
-}
-.position li a, .player-list li a, .goalkeeper-line li a, .defender-line li a, .midfielder-line li a, .striker-line li a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.position li a:hover, .player-list li a:hover {
-    background-color: #df462f;
-}
+  .position ul {
+      text-align: center;
+  }
+    .position ul li {
+        border: 10px #df462f;
+        display: inline;
+        list-style: none;
+    }
+      .position ul li a:hover, .player-list li a:hover {
+          background-color: #df462f;
+          padding: 10px;
+      }
 
 .main {
-    padding-top: 10px;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
     background-color: #700000;
-    height: 680px;
-    font-size: 20px;
-    line-height: 45px;
 }
-
 .player-list {
-    width: 28.5%;
-    float: left;
-    padding-left: 10px;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-}
-
-/* .football-pitch {
-    width: 52%;
-    float: left;
-    /* background-image: url("../image/football-pitch.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 450px;
-}
-.img-football-pitch {
-    display: block;
-    margin-left: 110px;
-    margin-right: auto;
-    width: 90%;
+    background-color: #a60004;
     border-radius: 1%;
-} */
+    font-size: 20px;
+    line-height: 30px;
+    max-height: 700px;
+    padding: 10px;
+    width: 94%;
+}
+  .player-list ul li {
+    list-style: none;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
 
-.user-picks {
-    box-sizing: border-box;
-    margin-right: 10px;
-    width: 70%;
-    height: 550px;
-    float: right;
-    border: 10px solid #df462f;
+.user-picked {
+    background-color: #a60004;
+    border-radius: 1%;
+    font-size: 20px;
+    line-height: 30px;
+    max-height: 700px;
+    padding: 10px;
+    width: 98.5%;
 }
-.goalkeeper-line {
-    width: 95%;
-    height: 120px;
-}
-.defender-line {
-    width: 95%;
-    height: 120px;
-    /* border: 1px solid red; */
-}
-.midfielder-line {
-    width: 95%;
-    height: 120px;
-    /* border: 1px solid red; */
-}
-.striker-line {
-    width: 95%;
-    height: 120px;
-    /* border: 1px solid red; */
-}
-
+  .user-picked ul li {
+    list-style: none;
+  }
 
 footer {
     background-color: #700000;

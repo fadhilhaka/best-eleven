@@ -96,3 +96,42 @@ function userPicksDF() {
     $('#user-picked-defender4').text('Alberto Moreno');
   });
 }
+
+function userPicksMF() {
+  $('#oxchambo').click(function(){
+    $('#user-picked-midfielder').text('Alex-Oxlade C.');
+  });
+  $('#adam-l').click(function(){
+    $('#user-picked-midfielder').text('Adam Lallana');
+  });
+  $('#steven-g').click(function(){
+    $('#user-picked-midfielder2').text('Steven Gerrard');
+  });
+  $('#jordan-h').click(function(){
+    $('#user-picked-midfielder2').text('Jordan Henderson');
+  });
+  $('#james-m').click(function(){
+    $('#user-picked-midfielder3').text('James Milner');
+  });
+  $('#naby-k').click(function(){
+    $('#user-picked-midfielder2').text('Naby Keita');
+  });
+  $('#emre-c').click(function(){
+    $('#user-picked-midfielder3').text('Emre Can');
+  });
+}
+
+function userPicksST() {
+  $('#sadio-m').click(function(){
+    $('#user-picked-striker').text('Sadio Mane');
+  });
+  $('#roberto-f').click(function(){
+    $('#user-picked-striker2').text('Roberto Firmino');
+  });
+  $('#luis-s').click(function(){
+    $('#user-picked-striker2').text('Luis Suarez');
+  });
+  $('#mo-salah').click(function(){
+    $('#user-picked-striker3').text('Mo Salah');
+  });
+}

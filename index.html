@@ -13,12 +13,14 @@
     <p>Pick your own best eleven!</p>
   </header>
   <section class="position">
+    <div class="table">
     <ul>
-      <li><a class="position-goalkeeper" id="position-goalkeeper" onclick="goalkeeper()">goalkeeper</a></li>
-      <li><a class="position-defender" id="position-defender" onclick="defender()">defender</a></li>
-      <li><a class="position-midfielder" id="position-midfielder" onclick="midfielder()">midfielder</a></li>
-      <li><a class="position-striker" id="position-striker" onclick="striker()">striker</a></li>
+      <li><a class="position-class" id="position-goalkeeper" onclick="goalkeeper()">goalkeeper</a></li>
+      <li><a class="position-class" id="position-defender" onclick="defender()">defender</a></li>
+      <li><a class="position-class" id="position-midfielder" onclick="midfielder()">midfielder</a></li>
+      <li><a class="position-class" id="position-striker" onclick="striker()">striker</a></li>
     </ul>
+  </div>
   </section>
   <section class="main" id="main" >
     <div class="player-list">
@@ -27,7 +29,7 @@
         <li><a class="loris-k" id="loris-k" onclick="userPicksGK()">Loris Karius</a></li>
       </ul>
       <ul class="defender">
-        <li><a class="picks-defender" id="trent-a-a" onclick="userPicksDF()">Trent-Alexander Arnold</a></li>
+        <li><a class="picks-defender" id="trent-a-a" onclick="userPicksDF()">Trent-Alexander A.</a></li>
         <li><a class="picks-defender" id="nathaniel-c" onclick="userPicksDF()">Nathaniel Clyne</a></li>
         <li><a class="picks-defender" id="virgil-v-d" onclick="userPicksDF()">Virgil van Dyke</a></li>
         <li><a class="picks-defender" id="joe-g" onclick="userPicksDF()">Joe Gomez</a></li>
@@ -38,24 +40,21 @@
         <li><a class="picks-defender" id="alberto-m" onclick="userPicksDF()">Alberto Moreno</a></li>
       </ul>
       <ul class="midfielder">
-        <li><a class="steven-g" id="steven-g" onclick="">Steven Gerrard</a></li>
-        <li><a class="jordan-h" id="jordan-h" onclick="">Jordan Henderson</a></li>
-        <li><a class="adam-l" id="adam-l" onclick="">Adam Lallana</a></li>
-        <li><a class="james-m" id="james-m" onclick="">James Milner</a></li>
-        <li><a class="oxchambo" id="oxchambo" onclick="">Alex-Oxlade Chamberlain</a></li>
-        <li><a class="naby-k" id="naby-k" onclick="">Naby Keita</a></li>
-        <li><a class="emre-c" id="emre-c" onclick="">Emre Can</a></li>
+        <li><a class="picks-midfielder" id="steven-g" onclick="userPicksMF">Steven Gerrard</a></li>
+        <li><a class="picks-midfielder" id="jordan-h" onclick="userPicksMF">Jordan Henderson</a></li>
+        <li><a class="picks-midfielder" id="adam-l" onclick="userPicksMF">Adam Lallana</a></li>
+        <li><a class="picks-midfielder" id="james-m" onclick="userPicksMF">James Milner</a></li>
+        <li><a class="picks-midfielder" id="oxchambo" onclick="userPicksMF">Alex-Oxlade C.</a></li>
+        <li><a class="picks-midfielder" id="naby-k" onclick="userPicksMF">Naby Keita</a></li>
+        <li><a class="picks-midfielder" id="emre-c" onclick="userPicksMF">Emre Can</a></li>
       </ul>
       <ul class="striker">
-        <li><a class="sadio-m" id="sadio-m" onclick="">Sadio Mane</a></li>
-        <li><a class="roberto-f" id="roberto-f" onclick="">Roberto Firmino</a></li>
-        <li><a class="luis-s" id="luis-s" onclick="">Luis Suarez</a></li>
-        <li><a class="mo-salah" id="mo-salah" onclick="">Mo Salah</a></li>
+        <li><a class="picks-striker" id="sadio-m" onclick="userPicksST">Sadio Mane</a></li>
+        <li><a class="picks-striker" id="roberto-f" onclick="userPicksST">Roberto Firmino</a></li>
+        <li><a class="picks-striker" id="luis-s" onclick="userPicksST">Luis Suarez</a></li>
+        <li><a class="picks-striker" id="mo-salah" onclick="userPicksST">Mo Salah</a></li>
       </ul>
     </div>
-    <!-- <div class="football-pitch">
-      <img src="../final-project-phase-0/image/football-pitch.jpg" class="img-football-pitch" >
-    </div> -->
     <div class="user-picked">
       <div class="goalkeeper-line">
         <ul class="user-goalkeeper">
@@ -72,16 +71,16 @@
       </div>
       <div class="midfielder-line">
         <ul class="user-midfielder">
-          <li><a class="user-picks-midfielder" id="user-picks-midfielder" onclick="">Pick Your MF</a></li>
-          <li><a class="user-picks-midfielder" id="user-picks-midfielder" onclick="">Pick Your MF</a></li>
-          <li><a class="user-picks-midfielder" id="user-picks-midfielder" onclick="">Pick Your MF</a></li>
+          <li><a class="user-picked-midfielder" id="user-picked-midfielder" onclick="">Pick Your MF</a></li>
+          <li><a class="user-picked-midfielder" id="user-picked-midfielder2" onclick="">Pick Your MF</a></li>
+          <li><a class="user-picked-midfielder" id="user-picked-midfielder3" onclick="">Pick Your MF</a></li>
         </ul>
       </div>
       <div class="striker-line">
         <ul class="user-striker">
-          <li><a class="user-picks-striker" id="user-picks-striker" onclick="">Pick Your ST</a></li>
-          <li><a class="user-picks-striker" id="user-picks-striker" onclick="">Pick Your ST</a></li>
-          <li><a class="user-picks-striker" id="user-picks-striker" onclick="">Pick Your ST</a></li>
+          <li><a class="user-picked-striker" id="user-picked-striker" onclick="">Pick Your ST</a></li>
+          <li><a class="user-picked-striker" id="user-picked-striker2" onclick="">Pick Your ST</a></li>
+          <li><a class="user-picked-striker" id="user-picked-striker3" onclick="">Pick Your ST</a></li>
         </ul>
       </div>
     </div>
