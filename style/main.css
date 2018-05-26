@@ -34,19 +34,19 @@ header p {
     width: 100%;
     overflow: hidden;
 }
-.position, .player-list {
+.position, .player-list, .goalkeeper-line, .defender-line, .midfielder-line, .striker-line {
     background-color: #700000;
     font-size: 20px;
 }
-.position li, .player-list li {
+.position li, .player-list li, .goalkeeper-line li, .defender-line li, .midfielder-line li, .striker-line li {
     float: left;
     margin: auto;
     list-style: none;
 }
-.position li a {
+.position li a, .goalkeeper-line li, .defender-line li a, .midfielder-line li a, .striker-line li a {
     display: block;
 }
-.position li a, .player-list li a {
+.position li a, .player-list li a, .goalkeeper-line li a, .defender-line li a, .midfielder-line li a, .striker-line li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -66,7 +66,7 @@ header p {
 }
 
 .player-list {
-    width: 30%;
+    width: 28.5%;
     float: left;
     padding-left: 10px;
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -93,28 +93,29 @@ header p {
 
 .user-picks {
     box-sizing: border-box;
-    width: 69%;
+    width: 70%;
     float: right;
+    border: 1px solid red;
 }
 .goalkeeper-line {
     width: 95%;
-    height: 110px;
-    border: 1px solid red;
+    height: 120px;
+    /* border: 1px solid red; */
 }
 .defender-line {
     width: 95%;
-    height: 110px;
-    border: 1px solid red;
+    height: 120px;
+    /* border: 1px solid red; */
 }
 .midfielder-line {
     width: 95%;
-    height: 110px;
-    border: 1px solid red;
+    height: 120px;
+    /* border: 1px solid red; */
 }
 .striker-line {
     width: 95%;
-    height: 110px;
-    border: 1px solid red;
+    height: 120px;
+    /* border: 1px solid red; */
 }
 
 
