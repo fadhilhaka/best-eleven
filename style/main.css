@@ -62,7 +62,7 @@ header p {
     background-color: #700000;
     height: 680px;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 45px;
 }
 
 .player-list {
@@ -92,10 +92,31 @@ header p {
 } */
 
 .user-picks {
+    box-sizing: border-box;
     width: 69%;
     float: right;
+}
+.goalkeeper-line {
+    width: 95%;
+    height: 100px;
     border: 1px solid red;
 }
+.defender-line {
+    width: 95%;
+    height: 100px;
+    border: 1px solid red;
+}
+.midfielder-line {
+    width: 95%;
+    height: 100px;
+    border: 1px solid red;
+}
+.striker-line {
+    width: 95%;
+    height: 100px;
+    border: 1px solid red;
+}
+
 
 footer {
     background-color: #700000;
