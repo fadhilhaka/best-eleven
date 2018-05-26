@@ -98,22 +98,22 @@ header p {
 }
 .goalkeeper-line {
     width: 95%;
-    height: 100px;
+    height: 110px;
     border: 1px solid red;
 }
 .defender-line {
     width: 95%;
-    height: 100px;
+    height: 110px;
     border: 1px solid red;
 }
 .midfielder-line {
     width: 95%;
-    height: 100px;
+    height: 110px;
     border: 1px solid red;
 }
 .striker-line {
     width: 95%;
-    height: 100px;
+    height: 110px;
     border: 1px solid red;
 }
 
