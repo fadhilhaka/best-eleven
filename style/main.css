@@ -93,14 +93,15 @@ header p {
 
 .user-picks {
     box-sizing: border-box;
+    margin-right: 10px;
     width: 70%;
+    height: 550px;
     float: right;
-    border: 1px solid red;
+    border: 10px solid #df462f;
 }
 .goalkeeper-line {
     width: 95%;
     height: 120px;
-    /* border: 1px solid red; */
 }
 .defender-line {
     width: 95%;

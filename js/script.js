@@ -57,3 +57,12 @@ function striker() {
     $('.midfielder').hide();
   }
 }
+
+function userPicksGK() {
+  $('#simon-m').click(function(){
+    $('#user-picks-gk').text('Simon Mignolet');
+  });
+  $('#loris-k').click(function(){
+    $('#user-picks-gk').text('Loris Karius');
+  });
+}
