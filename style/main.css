@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    min-width: 1000px;
+    min-height: 800px;
+}
+
+header {
+    background-color: #700000;
+    width: 100%;
+    height: 199px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+header h1 {
+    letter-spacing: -10px;
+    line-height:170px;
+}
+header p {
+    font-size: 29px;
+    letter-spacing: -2px;
+    line-height: 29px;
+}
+
+.position {
+    padding-left: 37.5%;
+    padding-right: auto; 
+    width: 100%;
+    overflow: hidden;
+}
+.position, .player-list {
+    background-color: #700000;
+    font-size: 20px;
+}
+.position li, .player-list li {
+    float: left;
+    margin: auto;
+    list-style: none;
+}
+.position li a {
+    display: block;
+}
+.position li a, .player-list li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.position li a:hover, .player-list li a:hover {
+    background-color: #df462f;
+}
+
+.main {
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: #700000;
+    height: 680px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.player-list {
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+/* .football-pitch {
+    width: 52%;
+    float: left;
+    /* background-image: url("../image/football-pitch.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.img-football-pitch {
+    display: block;
+    margin-left: 110px;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 1%;
+} */
+
+.user-picks {
+    width: 69%;
+    float: right;
+    border: 1px solid red;
+}
+
+footer {
+    background-color: #700000;
+    width: 100%;
+    height: 29px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 29px;
+}

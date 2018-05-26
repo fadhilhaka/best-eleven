@@ -1,17 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='stylesheet' type='text/css' href='./styles/main.css'></head>
-    <title>welcome :)</title>
-  </head>
-  <body id="index">
-    <div id="main-content">
-      <div id="smiley"><p><a href="home.html"></a></p></div><br>
-      <div id="welcome"><p>You just ran into my website. <br>Have a good time.</p></div>
-      <div id="welcome-note"><p>You can check out my other stuff: <a href="https://github.com/fadhilhaka" target="_blank">GitHub</a>
-    </div>    
-  </body>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+</head>
+<body>
+  <header>
+    <h1>BEST ELEVEN</h1>
+    <p>Pick your own best eleven!</p>
+  </header>
+  <section class="position">
+    <ul>
+      <li><a class="position-goalkeeper" id="position-goalkeeper" onclick="goalkeeper()">goalkeeper</a></li>
+      <li><a class="position-defender" id="position-defender" onclick="defender()">defender</a></li>
+      <li><a class="position-midfielder" id="position-midfielder" onclick="midfielder()">midfielder</a></li>
+      <li><a class="position-striker" id="position-striker" onclick="striker()">striker</a></li>
+    </ul>
+  </section>
+  <section class="main" id="main" >
+    <div class="player-list">
+      <ul class="goalkeeper">
+        <li><a class="simon-m" id="simon-m" onclick="">Simon Mignolet</a></li>
+        <li><a class="loris-k" id="loris-k" onclick="">Loris Karius</a></li>
+      </ul>
+      <ul class="defender">
+        <li><a class="trent-a-a" id="trent-a-a" onclick="">Trent-Alexander Arnold</a></li>
+        <li><a class="nathaniel-c" id="nathaniel-c" onclick="">Nathaniel Clyne</a></li>
+        <li><a class="virgil-v-d" id="virgil-v-d" onclick="">Virgil van Dyke</a></li>
+        <li><a class="joe-g" id="joe-g" onclick="">Joe Gomez</a></li>
+        <li><a class="dejan-l" id="dejan-l" onclick="">Dejan Lovren</a></li>
+        <li><a class="ragnar-k" id="ragnar-k" onclick="">Ragnar Klavan</a></li>
+        <li><a class="joel-m" id="joel-m" onclick="">Joel Matip</a></li>
+        <li><a class="andrew-r" id="andrew-r" onclick="">Andrew Robertson</a></li>
+        <li><a class="alberto-m" id="alberto-m" onclick="">Alberto Moreno</a></li>
+      </ul>
+      <ul class="midfielder">
+        <li><a class="steven-g" id="steven-g" onclick="">Steven Gerrard</a></li>
+        <li><a class="jordan-h" id="jordan-h" onclick="">Jordan Henderson</a></li>
+        <li><a class="adam-l" id="adam-l" onclick="">Adam Lallana</a></li>
+        <li><a class="james-m" id="james-m" onclick="">James Milner</a></li>
+        <li><a class="oxchambo" id="oxchambo" onclick="">Alex-Oxlade Chamberlain</a></li>
+        <li><a class="naby-k" id="naby-k" onclick="">Naby Keita</a></li>
+        <li><a class="emre-c" id="emre-c" onclick="">Emre Can</a></li>
+      </ul>
+      <ul class="striker">
+        <li><a class="sadio-m" id="sadio-m" onclick="">Sadio Mane</a></li>
+        <li><a class="roberto-f" id="roberto-f" onclick="">Roberto Firmino</a></li>
+        <li><a class="luis-s" id="luis-s" onclick="">Luis Suarez</a></li>
+        <li><a class="mo-salah" id="mo-salah" onclick="">Mo Salah</a></li>
+      </ul>
+    </div>
+    <!-- <div class="football-pitch">
+      <img src="../final-project-phase-0/image/football-pitch.jpg" class="img-football-pitch" >
+    </div> -->
+    <div class="user-picks">
+
+    </div>
+  </section>
+  <footer>
+    created by fadhilhaka
+  </footer>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+	<script src='js/script.js' ></script>
+</body>
 </html>
