@@ -60,9 +60,39 @@ function striker() {
 
 function userPicksGK() {
   $('#simon-m').click(function(){
-    $('#user-picks-gk').text('Simon Mignolet');
+    $('#user-picked-gk').text('Simon Mignolet');
   });
   $('#loris-k').click(function(){
-    $('#user-picks-gk').text('Loris Karius');
+    $('#user-picked-gk').text('Loris Karius');
+  });
+}
+
+function userPicksDF() {
+  $('#trent-a-a').click(function(){
+    $('#user-picked-defender').text('Trent-Alexander Arnold');
+  });
+  $('#nathaniel-c').click(function(){
+    $('#user-picked-defender').text('Nathaniel Clyne');
+  });
+  $('#virgil-v-d').click(function(){
+    $('#user-picked-defender2').text('Virgil van Dyke');
+  });
+  $('#dejan-l').click(function(){
+    $('#user-picked-defender2').text('Dejan Lovren');
+  });
+  $('#joel-m').click(function(){
+    $('#user-picked-defender3').text('Joel Matip');
+  });
+  $('#ragnar-k').click(function(){
+    $('#user-picked-defender3').text('Ragnar Klavan');
+  });
+  $('#joe-g').click(function(){
+    $('#user-picked-defender3').text('Joe Gomez');
+  });
+  $('#andrew-r').click(function(){
+    $('#user-picked-defender4').text('Andrew Robertson');
+  });
+  $('#alberto-m').click(function(){
+    $('#user-picked-defender4').text('Alberto Moreno');
   });
 }
